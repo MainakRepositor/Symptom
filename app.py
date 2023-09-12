@@ -29,7 +29,7 @@ if st.button('Predict'):
     st.write(f'## Disease: {prediction} with {prob*100:.2f}% probability')
 
 
-    tab1, tab2= st.tabs(["Description", "Precautions"])
+    tab1, tab2= st.tabs(["Description", "Guidelines"])
 
     with tab1:
         st.write(disease_model.describe_predicted_disease())
