@@ -12,7 +12,6 @@ st.set_page_config(layout='wide')
 # Create sidebar
 st.sidebar.markdown('# Disease Prediction')
 st.sidebar.markdown("This web app uses a machine learning model to predict diseases based on a set of symptoms using Scikit-learn, Python and Streamlit.")
-st.sidebar.markdown("Author: Guillermo Chumaceiro")
 
 
 # Title
